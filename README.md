@@ -35,6 +35,10 @@
 
 ## Css
 
+## Git
+
+- [나만의 커밋 메세지 가이드]()
+
 ## Html
 
 ## JavaScript
@@ -48,4 +52,3 @@
 ## ETC
 
 - [강의 노트를 정리합니다.](https://github.com/hyuns619/TIL/tree/master/ETC/Note)
-  
