@@ -37,7 +37,7 @@
 
 ## Git
 
-- [나만의 커밋 메세지 가이드]()
+- [나만의 커밋 메세지 가이드](https://github.com/sunghyunjeonme/TIL/blob/master/Git/001-%EB%82%98%EB%A7%8C%EC%9D%98%20%EC%BB%A4%EB%B0%8B%20%EB%A9%94%EC%84%B8%EC%A7%80%20%EA%B0%80%EC%9D%B4%EB%93%9C.md)
 
 ## Html
 
