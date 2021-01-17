@@ -52,3 +52,5 @@
 ## ETC
 
 - [강의 노트를 정리합니다.](https://github.com/sunghyunjeonme/TIL/tree/master/ETC/Note)
+
+- [VS Code 자주 쓰는 단축키 모음](https://github.com/sunghyunjeonme/TIL/commit/77241c81abebf28b3dde251a54ebff02c078a68a)
