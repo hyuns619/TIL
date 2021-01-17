@@ -19,7 +19,7 @@
 [210110_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210110_TIL.md>)<br>
 [210109_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210109_TIL.md>)<br>
 [210108_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210108_TIL.md>)<br>
-[210107_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210107_TIL.md>)<br>
+[210107_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210107_TIL.md>)&nbsp;&nbsp;[210117_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210117_TIL.md>)<br>
 [210106_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210106_TIL.md>)&nbsp;&nbsp;[210116_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210116_TIL.md>)<br>
 [210105_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210105_TIL.md>)&nbsp;&nbsp;[210115_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210115_TIL.md>)<br>
 [210104_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210104_TIL.md>)&nbsp;&nbsp;[210114_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210114_TIL.md>)<br>
