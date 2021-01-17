@@ -1,5 +1,7 @@
 # 클래스와 오브젝트
 
+> 드림코딩 강의로 선회하여 강의 노트를 정리
+
 **클래스란**
 
 > 조금 더 연관있는 데이터를 한 곳에 묶어 놓은 컨테이너
@@ -54,19 +56,19 @@ JavaScript classes
 
 ```js
 class Person {
-	// constructor
-	constructor(name, age) {
-		// fields
-		this.name = name;
-		this.age = age;
-	}
-	// methods
-	speak() {
-		console.log(`${this.name}: hello!`);
-	}
+  // constructor
+  constructor(name, age) {
+    // fields
+    this.name = name;
+    this.age = age;
+  }
+  // methods
+  speak() {
+    console.log(`${this.name}: hello!`);
+  }
 }
 
-const hyun = new Person('hyun', 27);
+const hyun = new Person("hyun", 27);
 console.log(hyun.name);
 console.log(hyun.age);
 hyun.speak(); // 'hyun' // 27 // hyun: hello!
@@ -76,62 +78,64 @@ hyun.speak(); // 'hyun' // 27 // hyun: hello!
 
 ```js
 class User {
-	constructor(firstName, lastName, age) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.age = age;
-	}
-	get age() {
-		return this._age;
-	}
-	set age(value) {
-		this._age = value < 0 ? 0 : value;
-	}
+  constructor(firstName, lastName, age) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+  }
+  get age() {
+    return this._age;
+  }
+  set age(value) {
+    this._age = value < 0 ? 0 : value;
+  }
 }
 
-const user1 = new User('Steve', 'Job', -1);
+const user1 = new User("Steve", "Job", -1);
 console.log(user1.age); // 0
 ```
 
 **상속과 다양성**
+
 ```js
 class Shape {
-	constructor(width, height, color) {
-		this.width = width;
-		this.height = height;
-		this.color = color;
-	}
+  constructor(width, height, color) {
+    this.width = width;
+    this.height = height;
+    this.color = color;
+  }
 
-	draw() {
-		console.log(`drawing ${this.color} color of!`);
-	}
+  draw() {
+    console.log(`drawing ${this.color} color of!`);
+  }
 
-	getArea() {
-		return this.width * this.height;
-	}
-
+  getArea() {
+    return this.width * this.height;
+  }
 }
 
-class Rectangle extends Shape { 
-	// extends 키워드를 통한 상속
+class Rectangle extends Shape {
+  // extends 키워드를 통한 상속
 }
-class Triangle extends Shape { 
-	// 원하는 함수만을 가져와서 사용하는 것 (오버라이딩 / 이는 클래스의 다양성)
-	draw() { 
-		super.draw(); // super 키워드를 사용하면 모두 호출할 수 있다. 
-		console.log('🔺'); // draw 함수를 오버라이딩하면 Shape에 정의된 함수는 호출되지 않는다.
-	}
-	getArea() {
-		return (this.width * this.height) / 2; // 삼각형이기 때문에, 원하는 함수만(오버라이딩) 가져와서 2로 나누었다. 
-	}
+class Triangle extends Shape {
+  // 원하는 함수만을 가져와서 사용하는 것 (오버라이딩 / 이는 클래스의 다양성)
+  draw() {
+    super.draw(); // super 키워드를 사용하면 모두 호출할 수 있다.
+    console.log("🔺"); // draw 함수를 오버라이딩하면 Shape에 정의된 함수는 호출되지 않는다.
+  }
+  getArea() {
+    return (this.width * this.height) / 2; // 삼각형이기 때문에, 원하는 함수만(오버라이딩) 가져와서 2로 나누었다.
+  }
 }
-const rectangle = new Rectangle(20, 20, 'blue');
-rectangle.draw(); // drawing blue color of! 
+const rectangle = new Rectangle(20, 20, "blue");
+rectangle.draw(); // drawing blue color of!
 console.log(rectangle.getArea()); // 400
-const triangle = new Triangle(20, 20, 'red'); // drawing red color of! 
+const triangle = new Triangle(20, 20, "red"); // drawing red color of!
 console.log(triangle.getArea()); // 200
 ```
+
 **클래스 확인 : instanceOf**
+
 ```js
 console.log(rectangle instanceof Rectangle); // true
 console.log(triangle instanceof Rectangle); // false
