@@ -12,4 +12,12 @@
 - [자바스크립트 파트 4. 키워드와 예약어]()
 - [자바스크립트 파트 5. 변수의 유효 범위](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/Note/FastCampus_JavaScript/004-%ED%82%A4%EC%9B%8C%EB%93%9C%EC%99%80%20%EC%98%88%EC%95%BD%EC%96%B4.md)
 - [자바스크립트 파트 6. 조건문](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/Note/FastCampus_JavaScript/006-%EC%A1%B0%EA%B1%B4%EB%AC%B8.md)
-- [자바스크립트 파트 7. 반복문]()
+- [자바스크립트 파트 7. 반복문](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/Note/FastCampus_JavaScript/007-%EB%B0%98%EB%B3%B5%EB%AC%B8.md)
+
+  - 유튜브 드림코드 강의로 선회
+  - [자바스크립트 파트 8. 함수](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/Note/FastCampus_JavaScript/008-%ED%95%A8%EC%88%98.md)
+  - [자바스크립트 파트 9. 클래스 VS 오브젝트](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/Note/FastCampus_JavaScript/009-Class%20vs%20Object.md)
+
+  - [자바스크립트 파트 10. 오브젝트](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/Note/FastCampus_JavaScript/010-Object.md)
+  - [자바스크립트 파트 11. 배열](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/Note/FastCampus_JavaScript/011-Array.md)
+  - [자바스크립트 파트 12. 유용한 배열 메서드](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/Note/FastCampus_JavaScript/012-Useful%20array%20function.md)
