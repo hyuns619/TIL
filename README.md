@@ -16,17 +16,6 @@
 
 ## TIL (Today I Learned)
 
-[210110_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210110_TIL.md>)&nbsp;&nbsp;[210120_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210120_TIL.md>)<br>
-[210109_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210109_TIL.md>)&nbsp;&nbsp;[210119_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210119_TIL.md>)<br>
-[210108_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210108_TIL.md>)&nbsp;&nbsp;[210118_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210118_TI.md>)<br>
-[210107_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210107_TIL.md>)&nbsp;&nbsp;[210117_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210117_TIL.md>)<br>
-[210106_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210106_TIL.md>)&nbsp;&nbsp;[210116_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210116_TIL.md>)<br>
-[210105_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210105_TIL.md>)&nbsp;&nbsp;[210115_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210115_TIL.md>)<br>
-[210104_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210104_TIL.md>)&nbsp;&nbsp;[210114_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210114_TIL.md>)&nbsp;&nbsp;[210124_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210124_TIL.md>)<br>
-[210103_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210103_TIL.md>)&nbsp;&nbsp;[210113_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210113_TIL.md>)&nbsp;&nbsp;[210123_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210123_TIL.md>)<br>
-[210102_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210102_TIL.md>)&nbsp;&nbsp;[210112_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210112_TIL.md>)&nbsp;&nbsp;[210122_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210122_TIL.md>)<br>
-[210101_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/TIL%20(Today%20I%20Learned).md>)&nbsp;&nbsp;[210111_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210111_TIL.md>)&nbsp;&nbsp;[210121_TIL](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/January/210121_TIL.md>)<br>
-
 ## Categories
 
 ## Algorithm
@@ -55,5 +44,4 @@
 ## ETC
 
 - [강의 노트를 정리합니다.](https://github.com/sunghyunjeonme/TIL/tree/master/ETC/Note)
-
-- [VS Code 자주 쓰는 단축키 모음](https://github.com/sunghyunjeonme/TIL/commit/77241c81abebf28b3dde251a54ebff02c078a68a)
+- [VS Code 자주 쓰는 단축키 모음](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/vscode_usage.md)
