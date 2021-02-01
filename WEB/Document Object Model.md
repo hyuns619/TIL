@@ -11,7 +11,7 @@
 
 </center>
 
-DOM은 자바스크립트가 자신에게 접근해서 수정하는 방법을 제공하는데 이를 DOM API(Application Programming Interface)라고 부른다. 이 말인즉슨 정적인 웹 페이지에 접근하여 동적으로 웹 페이지를 변경하기 위한 방법은 메모리 상에 존재하는 DOM을 변경하는 것이고, 이때 필요한 것이 DOM에 접근하고 변경하는 프로퍼티와 메서드의 집합인 DOM API이다.
+DOM은 자바스크립트가 자신에게 접근해서 수정하는 방법을 제공하는데 이를 DOM API(Application Programming Interface)라고 부른다. 이 말인즉슨 정적인 웹 페이지에 접근하여 동적으로 웹 페이지를 변경하기 위한 방법은 메모리상에 존재하는 DOM을 변경하는 것이고, 이때 필요한 것이 DOM에 접근하고 변경하는 프로퍼티와 메서드의 집합인 DOM API이다.
 
 <center>
 
@@ -94,15 +94,14 @@ document.querySelectorAll("(#, .) css selector");
   |   node.nextSibling   | 형제 노드 |   node의 다음(next) 혹은 우측에 있는 노드 하나   |
 
 - 요소 노드에만 적용 가능
-  | 프로퍼티 | 유형 | 결과 |
-  | :----------------------------: | :------------: | :-------------------------------------------------: | --- |
-  | element.children | 자식 요소 노드 | element의 자식 요소 모음(HTMLCollection) |
-  | element.firstElementChild | 자식 요소 노드 | element의 첫 번째 자식 요소 하나 | |
-  | element.lastElementChild | 자식 요소 노드 | element의 마지막 자식 요소 하나 | |
-  | element.parentElement | 부모 요소 노드 | element의 부모 요소 하나 | |
-  | element.previousElementSibling | 형제 요소 노드 | element의 이전(previous) 혹은 좌측에 있는 요소 하나 | |
-  | element.nextElementSibling | 형제 요소 노드 | element의 다음(next) 혹은 우측에 있는 요소 하나 |
-  | |
+- |            프로퍼티            |      유형      |                        결과                         |
+  | :----------------------------: | :------------: | :-------------------------------------------------: |
+  |        element.children        | 자식 요소 노드 |      element의 자식 요소 모음(HTMLCollection)       |
+  |   element.firstElementChild    | 자식 요소 노드 |          element의 첫 번째 자식 요소 하나           |
+  |    element.lastElementChild    | 자식 요소 노드 |           element의 마지막 자식 요소 하나           |
+  |     element.parentElement      | 부모 요소 노드 |              element의 부모 요소 하나               |
+  | element.previousElementSibling | 형제 요소 노드 | element의 이전(previous) 혹은 좌측에 있는 요소 하나 |
+  |   element.nextElementSibling   | 형제 요소 노드 |   element의 다음(next) 혹은 우측에 있는 요소 하나   |
 
 ## HTML 콘텐츠 조작
 
