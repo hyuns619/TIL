@@ -17,7 +17,7 @@
 
 ## TIL (Today I Learned)
 
-- [#일일회고](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/TIL%20(Today%20I%20Learned).md>)
+[#일일회고](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/TIL%20(Today%20I%20Learned).md>)
 
 ## Categories
 
@@ -25,29 +25,29 @@
 
 ## Book
 
-- [코어 자바스크립트 (데이터 타입)](<https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/%EC%BD%94%EC%96%B4%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8(%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85).md>)
+[코어 자바스크립트 (데이터 타입)](<https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/%EC%BD%94%EC%96%B4%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8(%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85).md>)
 
-- [프로그래머의 길, 멘토에게 묻다.]()
+[프로그래머의 길, 멘토에게 묻다.]()
 
 ## Css
 
-- [가상 선택자](https://github.com/sunghyunjeonme/TIL/blob/master/Css/root-selector.md)
+[가상 선택자](https://github.com/sunghyunjeonme/TIL/blob/master/Css/root-selector.md)
 
 ## Git
 
-- [나만의 커밋 메시지 가이드](https://github.com/sunghyunjeonme/TIL/blob/master/Git/001-%EB%82%98%EB%A7%8C%EC%9D%98%20%EC%BB%A4%EB%B0%8B%20%EB%A9%94%EC%84%B8%EC%A7%80%20%EA%B0%80%EC%9D%B4%EB%93%9C.md)
+[나만의 커밋 메시지 가이드](https://github.com/sunghyunjeonme/TIL/blob/master/Git/001-%EB%82%98%EB%A7%8C%EC%9D%98%20%EC%BB%A4%EB%B0%8B%20%EB%A9%94%EC%84%B8%EC%A7%80%20%EA%B0%80%EC%9D%B4%EB%93%9C.md)
 
 ## Html
 
 ## JavaScript
 
-[문서 객체 모델(Document Object Model)](<https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/%EB%AC%B8%EC%84%9C%20%EA%B0%9D%EC%B2%B4%20%EB%AA%A8%EB%8D%B8(Document%20Object%20Model).md>)
+[DOM(Document Object Model)](<https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/%EB%AC%B8%EC%84%9C%20%EA%B0%9D%EC%B2%B4%20%EB%AA%A8%EB%8D%B8(Document%20Object%20Model).md>)
 
 - [DOM을 깨우치다.](https://github.com/sunghyunjeonme/exploring-dom)
 
-[{ JSON }](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/%EC%84%9C%EB%B2%84%20%ED%86%B5%EC%8B%A0%EC%9D%98%20%EC%8B%9C%EC%9E%91%20%7B%20JSON%20%7D.md)
+[ JavaScript { JSON }](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/%EC%84%9C%EB%B2%84%20%ED%86%B5%EC%8B%A0%EC%9D%98%20%EC%8B%9C%EC%9E%91%20%7B%20JSON%20%7D.md)
 
-[JavaScript 이벤트]()
+[JavaScript 이벤트](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/event.md)
 
 ## Node
 
@@ -57,5 +57,6 @@
 
 ## ETC
 
-- [강의 노트를 정리합니다.](https://github.com/sunghyunjeonme/TIL/tree/master/ETC/Note)
-- [VS Code 자주 쓰는 단축키 모음](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/vscode_usage.md)
+[강의 노트를 정리합니다.](https://github.com/sunghyunjeonme/TIL/tree/master/ETC/Note)
+
+[VS Code 자주 쓰는 단축키 모음](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/vscode_usage.md)
