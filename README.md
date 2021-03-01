@@ -7,6 +7,7 @@
 - 학습한 내용을 주제별로 정리해서 기록한다.
 - 목차는 알파벳 순으로 정렬한다.
 - <a href="https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown">Github-Flavored-Markdown</a>으로 작성하며 파일의 확장자는 `md`이다.
+- 잘 쓰려고 하지 않고 온전히 이해하는 것에 초점을 맞춘다.
 - 가공된 기록은 <a href="https://hyuns.netlify.app">블로그</a>에 포스팅하는 것을 원칙으로 한다.
 
 ## Connecting the dot.
