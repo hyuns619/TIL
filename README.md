@@ -38,7 +38,7 @@
 
 ## 📃 Html
 
-- [시맨틱 마크업]()
+- [시맨틱 마크업](https://github.com/sunghyunjeonme/TIL/blob/master/Html/semantic.md)
 
 ## 🎯 JavaScript
 
