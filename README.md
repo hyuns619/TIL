@@ -21,6 +21,10 @@
 
 ## Categories
 
+- [Algorithm](#-Algoritm)
+- [Book](#-Book)
+-
+
 ## 🧬 Algorithm
 
 ## 📚 Book
