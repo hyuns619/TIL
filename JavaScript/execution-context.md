@@ -40,48 +40,81 @@ foo(); // 6
 
 가장 첫 번째로 코드가 실행되기 전에 전역 실행 콘텍스트가 콜 스택에 쌓이고 이어서 `foo` 함수 실행 콘텍스트가 생성되고 콜 스택에 추가(push)되며 코드가 실행된다. 그리고 `bar` 함수에 대한 실행 콘텍스트가 생성되며 콜 스택에 추가되어 실행된다. 결과적으로 `6`이 출력되고 `bar` 함수는 종료된다. 이때 자바스크립트 엔진은 `bar` 함수 실행 콘텍스트를 콜 스택에서 제거(pop)한다. `foo` 함수는 더 이상 실행할 코드가 없으므로 종료되고 콜 스택에서 제거된다. 마지막으로 전역 코드가 남아있지 않으므로 전역 실행 콘텍스트도 콜 스택에서 제거된다. [GIF](https://miro.medium.com/max/1100/1*dUl6qPEaDJJTXWythQsEtQ.gif)를 통해서 더 쉽게 이해할 수있다.
 
-##
+## 구성
 
-
-
-- **VariableEnvironment**
-  - environmentRecord (snapshot)
-  - outerEnvironmentReference (snapshot)
-
-- **LexicalEnvironment (어휘적/사전적 환경)**
-
-  - environmentRecord (현재 콘텍스트의 식별자 정보, HOISTING)
-
-    - 현재 실행 콘텍스트에 있는 식별자 정보를 수집해서 environmentRecord에 저장한다. 이를 HOISTING이라고 한다. 코드의 식별자 정보를 위로 끌어올린다.
-    - 전역 실행 콘텍스트가 생성되고 실행될 때 가장 먼저 environmentRecord에 정보를 수집해서 저장한다. 현재 실행 콘텍스트에 선언되어 있는 식별자들이 무엇인지를 수집하고 저장하는 과정. 호이스팅이랑 같은 맥락.
-    - inner에게 있어서 outerEnvironmentReference란 outer의 LexicalEnvironment
-    - out의 outerEnvironmentReference란 전역의 lexicalEnvironment
-      - 스코프는 실행 콘텍스트에 의해 결정되며 
-      - outerEnvironmentReference에서 일어남 
-- 
-  - outerEnvironmentReference
-    - 외부 환경에 대한 참조이다. 현재 실행 콘텍스트 외부의 식별자 정보(LexicalEnvironment)
-    - SCOPE CHAIN 
-    - 스코프는 실행 콘텍스트에 의해 결정된다.
-    - 내부에서 외부로는 가능, 외부에서 내부로는 불가능. environmentRecord와 연관. why ? inner에서 선언한 변수는 lexicalEnvironment에 수집해 놓은 정보가 없기 때문에 외부에서 내부는 볼 수 없다
-    - 전역에서 선언한 변수는 어디서 사용 가능, inner에서 사용한 변수는 inner에서만 사용 가능
-
-inner 내부에서는 자신의 environmentRecord와 out의 LexicalEnvironment out의 outerEnvironmentReference에 의해 전역 컨텍스트에 있는 lexicalEnvironment에 접근 가능
-
-그럼 스코프 체인은 무엇이냐 
-
-이너에서 어떤 변수에 접근하려고 했는데 없다 -> 이너의 outEnvironmentReference를 타고 out의 LexicalEnvironment의 environmentRecord에서 찾는다 -> 여기서도 없다 그러면 또 outerEnvironmentReference를 타고 전역 LexicalEnvironment에 가서 찾는다
-
-자기 자신과 가까운 곳에서부터 찾아가는 것
-
-
-- ThisBinding
-
-
-Execution Context
+실행 콘텍스트는 다음과 같은 구성 요소를 갖는다.
 
 - Variable Environment
 - Lexical Environment
-  - environmentRecord : 현재 실행 중인 콘텍스트의 식별자를 수집한다. 이것이 호이스팅이라는 용어로 통용되고 있다.
-  - outerEnvironmentReference : 현재 실행 중인 콘텍스트의 외부의 식별자 정보를 가져온다. 이것이 스코프 체인을 구성한다.
+- this 바인딩
 
+## VariableEnvironment
+
+- 최초 실행 시의 스냅샷을 유지한다.
+- 현재 콘텍스트 내의 식별자들에 대한 정보와 외부 환경 정보로 구성된다.
+- 변경사항이 저장되지 않는다.
+
+## LexicalEnvironment
+
+- 실행 콘텍스트를 생성할 때 먼저 VariableEnvironment에 정보를 담은 뒤, 복사해서 LexicalEnvironment를 만든다.
+- 변경사항이 반영된다.
+
+## VariableEnvironment와 LexicalEnvironment의 구성 요소
+
+- **environmentRecord**
+  - 변수의 식별자, 선언한 함수의 함수명, 함수에 지정된 매개변수명 등을 저장하는 공간
+  - 실행 콘텍스트가 생성될 때 가장 첫 번째로 environmentRecord에 정보를 수집한다.
+- **outerEnvironmentRecord**
+  - 바로 직전 콘텍스트의 LexicalEnvironment 정보를 참조한다.
+
+## environmentRecord와 호이스팅
+
+- environmentRecord에는 현재 콘텍스트와 관련된 코드의 식별자들이 저장된다.
+- 자바스크립트 엔진은 콘텍스트 내부를 처음부터 쭉 훑어나가며 순서대로 수집한다.
+- 변수 정보를 수집하는 과정을 완료했다고 하더라도 아직 실행 콘텍스트가 관여할 코드들은 실행되기 전의 상태이다. 식별자 정보만 우선 수집하는 것인데 결국 자바스크립트 엔진은 실행 전에 모든 식별자 정보를 알고 있게 되는 것이다.
+
+## 호이스팅
+
+- 호이스팅(hoisting)이란 끌어올린다는 뜻을 가지고 있지만, 자바스크립트 엔진이 실제로 끌어 올리는 것은 아니다.
+- 다만, 코드가 실행되기 전임에도 불구하고 자바스크립트 엔진은 이미 해당 콘텍스트에 속한 코드의 식별자를 모두 알고 있다.
+- 그렇다면, "자바스크립트 엔진은 식별자를 최상단으로 끌어올려 놓은 다음 실제 코드를 생각한다."라고 봐도 문제될 것이 없기 때문에 이를 통용해서 호이스팅(hoisting)이라고 부르는 것이다.
+- 할당 과정(값)은 원래 자리에 남아있기 때문에 여기서 함수 선언문과 표현식의 차이가 발생한다.
+
+  - 함수에는 함수 선언문과 함수 표현식이 존재한다.
+    함수 선언문은 `function a(){}` 형태로 a가 곧 변수명 되는 것이고, 함수 표현식은 `var b = function () {}` 형태로 b가 곧 변수명이자 함수명이 된다.
+    함수 선언문은 함수 전체를 호이스팅하지만, 함수 표현식의 경우 변수명이 있으므로 변수만 호이스팅한다.
+
+    - Cf. 호이스팅으로 인해서 협업을 진행할 때 문제가 생기기도 하는데 이를 방지하기 위해 다음처럼 작업을 하는 것을 고려해야 한다.
+
+      - 전역 공간에 함수를 선언하거나 같은 이름의 함수를 중복 선언하는 경우를 방지해야 한다.
+      - 함수 선언분 대신에 함수 표현식을 지향하자.
+
+## 스코프(Scope)
+
+- 식별자에 대한 유효 범위
+- 스코프는 실행 콘텍스트에 의해 결정된다.
+- 현재 실행 콘텍스트의 outerEnvironmentReference는 직전에 있는 콘텍스트의 LexicalEnvironment를 참조한다.
+- 이처럼 식별자의 유효 범위를 안에서부터 바깥으로 차례대로 검색해나가는 것을 스코프 체인(Scope chain)이라고 한다.
+- 외부에 선언한 변수는 내부에서 접근이 가능하지만, 내부에서 선언한 변수는 외부에서 접근할 수 없다.
+
+코드상에서 어떤 변수에 접근하려고 한다면?
+
+1. 현재 콘텍스트의 LexicalEnvironment를 탐색
+2. 발견하면 그 값을 반환
+3. 발견하지 못 하면 outerEnvironment에 담긴 LexicalEnvironment를 탐색하는 과정을 거침
+4. 전역 콘텍스트의 LexicalEnvironment까지 탐색해도 해당 변수를 찾지 못하면 `undefined` 반환
+
+결국, 해당 콘텍스트의 outerEnvironment에서 외부 컨텍스트의 LexicalEnvironment를 탐색하는 과정이 스코프 체인인 것.
+
+## 전역 변수
+
+- 전역 콘텍스트의 LexicalEnvironment에 담긴 변수
+- 그 외에는 모두 지역 변수
+- 안전한 코드 구성을 위해 가급적 전역 변수 사용은 최소화하는 것이 좋다.
+
+## ThisBinding
+
+- 실행 콘텍스트의 thisBinding에는 this로 지정된 객체가 저장된다.
+- `this`에는 실행 콘텍스트가 생성될 때 당시 지정된 `this`가 저장된다.
+- 함수를 호출할 때 결정되며 호출하는 방법에 따라 값이 달라진다.
+- 지정되지 않은 경우에는 전역 객체가 지정된다.
