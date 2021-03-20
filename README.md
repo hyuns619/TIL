@@ -60,4 +60,4 @@
 
 - [강의 노트 정리](https://github.com/sunghyunjeonme/TIL/tree/master/ETC/Note)
 - [VS Code 자주 쓰는 단축키 모음](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/vscode_usage.md)
-- [코어 자바스크립트 정리]()
+- [코어 자바스크립트 정리](https://github.com/sunghyunjeonme/TIL/tree/master/Book/corejs)
