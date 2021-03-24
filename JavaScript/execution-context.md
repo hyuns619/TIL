@@ -62,7 +62,7 @@ foo(); // 6
 - **environmentRecord**
   - 변수의 식별자, 선언한 함수의 함수명, 함수에 지정된 매개변수명 등을 저장하는 공간
   - 실행 컨텍스트가 생성될 때 가장 첫 번째로 environmentRecord에 정보를 수집한다.
-- **outerEnvironmentRecord**
+- **outerEnvironmentReference**
   - 바로 직전 컨텍스트의 LexicalEnvironment 정보를 참조한다.
 
 ## environmentRecord와 호이스팅
@@ -99,7 +99,7 @@ foo(); // 6
 
 1. 현재 컨텍스트의 LexicalEnvironment를 탐색
 2. 발견하면 그 값을 반환
-3. 발견하지 못 하면 outerEnvironment에 담긴 LexicalEnvironment를 탐색하는 과정을 거침
+3. 발견하지 못 하면 outerEnvironmentReference에 담긴 LexicalEnvironment를 탐색하는 과정을 거침
 4. 전역 컨텍스트의 LexicalEnvironment까지 탐색해도 해당 변수를 찾지 못하면 `undefined` 반환
 
 결국, 해당 컨텍스트의 outerEnvironment에서 외부 컨텍스트의 LexicalEnvironment를 탐색하는 과정이 스코프 체인인 것.
@@ -116,3 +116,8 @@ foo(); // 6
 - `this`에는 실행 컨텍스트가 생성될 때 당시 지정된 `this`가 저장된다.
 - 함수를 호출할 때 결정되며 호출하는 방법에 따라 값이 달라진다.
 - 지정되지 않은 경우에는 전역 객체가 지정된다.
+
+## Reference
+
+- 코어 자바스크립트
+- [실행 컨텍스트 블로그 포스트](https://hyuns.netlify.app/execution-context/)
