@@ -46,6 +46,7 @@
   - [DOM을 깨우치다.](https://github.com/sunghyunjeonme/exploring-dom)
 - [JSON](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/%EC%84%9C%EB%B2%84%20%ED%86%B5%EC%8B%A0%EC%9D%98%20%EC%8B%9C%EC%9E%91%20%7B%20JSON%20%7D.md)
 - [실행 컨텍스트 (Execution Context)](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/execution-context.md)
+- [스코프 (Scope)](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/scope.md)
 - [이벤트](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/event.md)
 
 ## 📈 Network

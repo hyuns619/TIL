@@ -1,5 +1,7 @@
 # 스코프(Scope)
 
+스코프를 이해하려면 [실행 컨텍스트](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/execution-context.md)에 대해 알고 있어야 한다.
+
 ## 정의
 
 스코프는 자바스크립트 엔진이 `식별자(Identifier)`를 검색할 때 사용하는 규칙이다. 자바스크립트 엔진은 이 규칙대로 식별자를 찾는다.
