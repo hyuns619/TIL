@@ -8,16 +8,13 @@
 - 목차는 알파벳 순으로 정렬한다.
 - <a href="https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown">Github-Flavored-Markdown</a>으로 작성하며 파일의 확장자는 `md`이다.
 - 잘 쓰려고 하지 않고 온전히 이해하는 것에 초점을 맞춘다.
+- `2021/03/25` 기준 파일명은 제목에 날짜를 함께 기재한다.
 - 가공된 기록은 <a href="https://hyuns.netlify.app">블로그</a>에 포스팅하는 것을 원칙으로 한다.
 
 ## Connecting the dot.
 
 내가 남기는 기록은 점(dot)이 되고, 그 점이 모여 선과 면으로 확장될 수 있다고 생각합니다.<br>
 좋은 개발자가 되기 위한 지향점을 제시해주신 <a href="https://github.com/joonsikyang">JoonSikYang</a> 님, <a href="https://github.com/saengmotmi">saengmotmi</a> 님, <a href="https://github.com/gollumnima">gollumnima</a> 님의 영감을 받아 꾸준함의 근육을 단련시키고자 합니다.
-
-## TIL (Today I Learned)
-
-- [#일일회고](<https://github.com/sunghyunjeonme/TIL/blob/master/TIL%20(Today%20I%20Learned)/TIL%20(Today%20I%20Learned).md>)
 
 ## Categories
 
@@ -61,4 +58,3 @@
 
 - [강의 노트 정리](https://github.com/sunghyunjeonme/TIL/tree/master/ETC/Note)
 - [VS Code 자주 쓰는 단축키 모음](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/vscode_usage.md)
-- [코어 자바스크립트 정리](https://github.com/sunghyunjeonme/TIL/tree/master/Book/corejs)
