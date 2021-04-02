@@ -1,4 +1,4 @@
-# 실행 컨텍스트(Execution context)
+# 코어 자바스크립트 Part 2. 실행 컨텍스트 (Execution context)
 
 ## 실행 컨텍스트란
 
