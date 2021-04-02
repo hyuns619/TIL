@@ -42,7 +42,7 @@ xhrRequest.onload = () => {
 xhrRequest.send();
 ```
 
-`open()`과 같은 요청 메서드와 URL을 설정하고, 모두 로드되었을 때 콜백함수를 초기화한다.
+`open()`과 같은 요청 메서드와 URL을 설정하고, 모두 로드되었을 때 콜백 함수를 초기화한다.
 
 ## Fetch API
 
@@ -54,4 +54,23 @@ fetch("https://learnwebcode.github.io/json-example/animals-1.json")
   .then((resJson) => console.log(resJson));
 ```
 
-`fetch()` 메서드는 URL을 인자로 받고 응답을 처리하기 위한 promise를 반환한다. 응답을 처리할 때는
+응답 객체는 `json()` , `blob()` 과 같은 내장 메서드로 body를 추출해내고 이는 다시 Promise를 리턴한다.
+
+아래를 클릭해서 둘을 비교해 보자.
+
+[![codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/j97u5)
+
+# 장단점
+
+## 장점
+
+- 페이지를 전환하지 않고 빠르게 화면 일부분을 업데이트 할 수 있다.
+- 수신하는 데이터 양을 줄일 수 있고 클라이언트에게 처리를 맡길 수 있다.
+- 서버 처리를 기다리지 않고 비동기 요청이 가능하다.
+
+## 단점
+
+- 지원하지 않는 브라우저가 있다.
+- 페이지 전환 없이 서버와 통신을 하기 때문에 보안상의 문제가 있을 수 있다.
+- 무분별하게 사용하면 서버의 부하가 일어날 수 있다.
+- 동일 출처 정책 문제가 발생할 수 있다.
