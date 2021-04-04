@@ -119,5 +119,5 @@ foo(); // 6
 
 ## Reference
 
-- 코어 자바스크립트
+- [코어 자바스크립트 정리](https://github.com/sunghyunjeonme/TIL/blob/master/Book/corejs/corejs-execution-context.md)
 - [실행 컨텍스트 블로그 포스트](https://hyuns.netlify.app/execution-context/)
