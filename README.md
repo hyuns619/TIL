@@ -28,7 +28,7 @@
 ## 💄 Css
 
 - [가상 선택자](https://github.com/sunghyunjeonme/TIL/blob/master/Css/root-selector.md)
-- [block vs inline vs inline-block]()
+- [block vs inline vs inline-block](https://github.com/sunghyunjeonme/TIL/blob/master/Html/210404_block.md)
 
 ## 💿 Git
 
@@ -36,7 +36,7 @@
 
 ## 📃 Html
 
-- [DOCTYPE]()
+- [DOCTYPE](https://github.com/sunghyunjeonme/TIL/blob/master/Html/210404_doctype.md)
 - [시맨틱 마크업](https://github.com/sunghyunjeonme/TIL/blob/master/Html/semantic.md)
 
 ## 🎯 JavaScript
@@ -59,7 +59,7 @@
 
 ## Wep
 
-- [bitmap과 vector 포맷]()
+- [bitmap과 vector 포맷](https://github.com/sunghyunjeonme/TIL/blob/master/Html/210404_bitmap-vector.md)
 
 ## ETC
 
