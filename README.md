@@ -29,6 +29,7 @@
 
 - [가상 선택자](https://github.com/sunghyunjeonme/TIL/blob/master/Css/root-selector.md)
 - [block vs inline vs inline-block](https://github.com/sunghyunjeonme/TIL/blob/master/Html/210404_block.md)
+- [CSS 초기화 전략 (Reset.css vs Normalize.css)]()
 
 ## 💿 Git
 
