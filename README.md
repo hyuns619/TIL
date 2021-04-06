@@ -39,6 +39,7 @@
 
 - [DOCTYPE](https://github.com/sunghyunjeonme/TIL/blob/master/Html/210404_doctype.md)
 - [시맨틱 마크업](https://github.com/sunghyunjeonme/TIL/blob/master/Html/semantic.md)
+- [Emmet 기본 사용법]()
 
 ## 🎯 JavaScript
 
@@ -48,7 +49,7 @@
 - [실행 컨텍스트 (Execution Context)](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/execution-context.md)
 - [스코프 (Scope)](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/scope.md)
 - [호이스팅 (Hoisting)](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/210325_hosting.md)
-- [var vs let vs const](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/var-let-const.md)
+- [var vs let vs const](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/210325_var-let-const.md)
 - [이벤트 (Event)](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/event.md)
 - [네이티브 객체 vs 호스트 객체](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/210331_native-host.md)
 
