@@ -39,7 +39,7 @@
 
 - [DOCTYPE](https://github.com/sunghyunjeonme/TIL/blob/master/Html/210404_doctype.md)
 - [시맨틱 마크업](https://github.com/sunghyunjeonme/TIL/blob/master/Html/semantic.md)
-- [Emmet 기본 사용법]()
+- [Emmet 기본 사용법](https://github.com/sunghyunjeonme/TIL/blob/master/Html/210406_emmet.md)
 
 ## 🎯 JavaScript
 
