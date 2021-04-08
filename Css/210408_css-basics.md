@@ -1,4 +1,4 @@
-# CSS 기본 정리
+# CSS 기본 선택자 정리
 
 ## <mark>기본 문법
 
@@ -194,3 +194,36 @@ CSS를 통해서 HTML에 가상의 요소를 생성할 수 있다.
 
 - before
 - after
+
+```css
+e::before
+/* 요소 내부의 앞에 내용(content)을 삽입 */
+e::after
+/* 요소 내부의 뒤에 내용(content)을 삽입 */
+```
+
+- [예제](https://codepen.io/hyuns619/pen/poRdbEW)
+
+## <mark> 속성 선택자
+
+- [attr]
+- [arrt=value]
+- [attr^=value]
+- [attr$=value]
+- [예제1](https://codepen.io/hyuns619/pen/BapmLPO) / [예제 2](https://codepen.io/hyuns619/pen/zYNPKbB)
+
+## <mark> 상속(Inheritance)
+
+글자를 다루는 속성은 상속이 된다. 그 외의 상속되지 않는 속성(값)도 `inherit`이라는 값을 사용하여 부모에서 자식으로 강제 상속시킬 수 있다. 단, 모든 속성이 강제 상속을 사용할 수 있는 것은 아니다.
+
+## <mark> 우선 순위
+
+같은 요소가 여러 선언의 대상이 될 경우, 어떤 선언의 CSS 속성을 우선해서 적용할지 결정하는 방법이다.
+
+1. `!important`
+2. 인라인 선언 방식
+3. 아이디 선택자
+4. 클래스 선택자
+5. 태그 선택자
+6. 전체 선택자
+7. 상속
