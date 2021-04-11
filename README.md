@@ -27,8 +27,8 @@
 
 ## 💄 Css
 
-- [CSS 박스 모델]()
-- [CSS 기본 문법 정리](https://github.com/sunghyunjeonme/TIL/blob/master/Css/210408_css-basics.md)
+- [기본 문법 정리](https://github.com/sunghyunjeonme/TIL/blob/master/Css/210408_css-basics.md)
+- [박스 모델(Box Model)](https://github.com/sunghyunjeonme/TIL/blob/master/Css/210409_css-box-model.md)
 - [가상 선택자](https://github.com/sunghyunjeonme/TIL/blob/master/Css/root-selector.md)
 - [block vs inline vs inline-block](https://github.com/sunghyunjeonme/TIL/blob/master/Html/210404_block.md)
 - [CSS 초기화 전략 (Reset.css vs Normalize.css)](https://github.com/sunghyunjeonme/TIL/blob/master/Css/210405_reset-css.md)
@@ -57,6 +57,8 @@
 
 ## 📈 Network
 
+- [HTTP 기본]()
+
 ## Node
 
 ## React
@@ -67,5 +69,6 @@
 
 ## ETC
 
+- [새로 알게 된 개발 용어 정리]()
 - [강의 노트 정리](https://github.com/sunghyunjeonme/TIL/tree/master/ETC/Note)
 - [VS Code 자주 쓰는 단축키 모음](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/vscode_usage.md)
