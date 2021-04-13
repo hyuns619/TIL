@@ -57,7 +57,7 @@
 
 ## 📈 Network
 
-- [HTTP 기본]()
+- [HTTP 기본](https://github.com/sunghyunjeonme/TIL/blob/master/Network/210410_http-basics.md)
 
 ## Node
 
@@ -69,6 +69,7 @@
 
 ## ETC
 
-- [새로 알게 된 개발 용어 정리]()
+- [🐢 모던 JavaScript 사이트 완독 목표 ]()
+- [🕮 새로 알게 된 개발 용어 정리](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/dictionary.md)
 - [강의 노트 정리](https://github.com/sunghyunjeonme/TIL/tree/master/ETC/Note)
 - [VS Code 자주 쓰는 단축키 모음](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/vscode_usage.md)
