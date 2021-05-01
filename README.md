@@ -29,7 +29,7 @@
 
 - [기본 문법 정리](https://github.com/sunghyunjeonme/TIL/blob/master/Css/210408_css-basics.md)
 - [박스 모델(Box Model)](https://github.com/sunghyunjeonme/TIL/blob/master/Css/210409_css-box-model.md)
-- [플렉스(Flexible Box)]()
+- [플렉스(Flexible Box)](https://github.com/sunghyunjeonme/TIL/blob/master/Css/2104030_css-flex.md)
 - [가상 선택자](https://github.com/sunghyunjeonme/TIL/blob/master/Css/root-selector.md)
 - [애니메이션(Animations)](https://github.com/sunghyunjeonme/TIL/blob/master/Css/210429_css-animations.md)
 - [block vs inline vs inline-block](https://github.com/sunghyunjeonme/TIL/blob/master/Html/210404_block.md)
