@@ -70,7 +70,7 @@
 
 ## 🌐 Wep
 
-- [bitmap과 vector 포맷](https://github.com/sunghyunjeonme/TIL/blob/master/Html/210404_bitmap-vector.md)
+- [bitmap과 vector 포맷](WEB/210404_bitmap-vector.md)
 
 ## 💣 Issue
 
