@@ -18,66 +18,66 @@
 
 ## Categories
 
-## 🧬 Algorithm
+## Algorithm
 
-## 📚 Book
+## Book
 
-- [코어 자바스크립트](https://github.com/sunghyunjeonme/TIL/tree/master/Book/corejs)
-- [프로그래머의 길, 멘토에게 묻다.](https://github.com/sunghyunjeonme/TIL/blob/master/Book/apprenticeship-patterns.md)
+- [코어 자바스크립트](book/corejs/README.md)
+- [프로그래머의 길, 멘토에게 묻다.](book/apprenticeship-patterns.md)
 
-## 💄 Css
+## Css
 
-- [기본 문법 정리](https://github.com/sunghyunjeonme/TIL/blob/master/Css/210408_css-basics.md)
-- [박스 모델(Box Model)](https://github.com/sunghyunjeonme/TIL/blob/master/Css/210409_css-box-model.md)
-- [플렉스 박스(Flex Box)](https://github.com/sunghyunjeonme/TIL/blob/master/Css/2104030_css-flex.md)
-- [가상 선택자](https://github.com/sunghyunjeonme/TIL/blob/master/Css/root-selector.md)
-- [애니메이션(Animations)](https://github.com/sunghyunjeonme/TIL/blob/master/Css/210429_css-animations.md)
-- [block vs inline vs inline-block](https://github.com/sunghyunjeonme/TIL/blob/master/Html/210404_block.md)
-- [CSS 속성 순서](https://github.com/sunghyunjeonme/TIL/blob/master/Css/210504-css-property-order.md)
-- [CSS 초기화 전략 (Reset.css vs Normalize.css)](https://github.com/sunghyunjeonme/TIL/blob/master/Css/210405_reset-css.md)
+- [CSS 기본 문법 정리](css/210408_css-basics.md)
+- [CSS 박스 모델(Box Model)](css/210409_css-box-model.md)
+- [CSS 플렉스 박스(Flex Box)](css/2104030_css-flex.md)
+- [CSS 가상 선택자](css/root-selector.md)
+- [CSS 애니메이션(Animation)](css/210429_css-animations.md)
+- [CSS 블록, 인라인, 인라인 블록 요소의 차이](css/210404_block-inline-inline-block.md)
+- [CSS 속성 순서 컨벤션](css/210504-css-property-order.md)
+- [CSS 초기화 전략 (Reset.css vs Normalize.css)](css/210405_reset-css.md)
 
-## 💿 Git
+## Git
 
-- [나만의 커밋 메시지 가이드](https://github.com/sunghyunjeonme/TIL/blob/master/Git/001-%EB%82%98%EB%A7%8C%EC%9D%98%20%EC%BB%A4%EB%B0%8B%20%EB%A9%94%EC%84%B8%EC%A7%80%20%EA%B0%80%EC%9D%B4%EB%93%9C.md)
+- [나만의 커밋 메시지 가이드](git/my-commit-guide.md)
 
-## 📃 Html
+## Html
 
-- [DOCTYPE](https://github.com/sunghyunjeonme/TIL/blob/master/Html/210404_doctype.md)
-- [시맨틱 마크업](https://github.com/sunghyunjeonme/TIL/blob/master/Html/semantic.md)
-- [Emmet 기본 사용법](https://github.com/sunghyunjeonme/TIL/blob/master/Html/210406_emmet.md)
+- [기본을 중요하게 생각하자, 시맨틱 마크업](html/semantic.md)
+- [DOCTYPE](html/210404_doctype.md)
+- [Emmet 기본 사용법](html/210406_emmet.md)
 
-## 🎯 JavaScript
+## JavaScript
 
 - [DOM](https://github.com/sunghyunjeonme/exploring-dom)
-- [Ajax](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/ajax.md)
-- [JSON](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/json.md)
-- [실행 컨텍스트 (Execution Context)](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/execution-context.md)
-- [스코프 (Scope)](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/scope.md)
-- [호이스팅 (Hoisting)](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/210325_hosting.md)
-- [var vs let vs const](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/210325_var-let-const.md)
-- [이벤트 (Event)](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/event.md)
-- [네이티브 객체 vs 호스트 객체](https://github.com/sunghyunjeonme/TIL/blob/master/JavaScript/210331_native-host.md)
+- [Ajax](javascript/ajax.md)
+- [JSON](javascript/json.md)
+- [실행 컨텍스트 (Execution Context)](javascript/execution-context.md)
+- [스코프 (Scope)](javascript/scope.md)
+- [호이스팅 (Hoisting)](javascript/210325_hosting.md)
+- [var vs let vs const](javascript/210325_var-let-const.md)
+- [이벤트 (Event)](javascript/event.md)
+- [네이티브 객체와 호스트 객체](javascript/210331_native-host.md)
 
-## 📈 Network
+## Network
 
-- [HTTP 기본](https://github.com/sunghyunjeonme/TIL/blob/master/Network/210410_http-basics.md)
+- [HTTP 기초 내용 정리](network/210410_http-basics.md)
 
-## 🗄️ Node
+## Node
 
-- [npm과 npx](https://github.com/sunghyunjeonme/TIL/blob/master/Node/210423_npm-npx.md)
+- [npm과 npx](node/210423_npm-npx.md)
 
-## 🌏 React
+## React
 
-## 🌐 Wep
+## Wep
 
-- [bitmap과 vector 포맷](WEB/210404_bitmap-vector.md)
+- [bitmap과 vector 포맷](web/210404_bitmap-vector.md)
 
-## 💣 Issue
+## Issue
 
-## 💬 Conference
+## Conference
 
-## 🧰 ETC
+## ETC
 
-- [🕮 새로 알게 된 개발 용어 정리](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/dictionary.md)
-- [강의 노트 정리](https://github.com/sunghyunjeonme/TIL/tree/master/ETC/Note)
-- [VS Code 자주 쓰는 단축키 모음](https://github.com/sunghyunjeonme/TIL/blob/master/ETC/vscode_usage.md)
+- [새로 알게 된 개발 용어 정리](etc/dictionary.md)
+- [강의 노트 정리](etc/note/fastcampus/../README.md)
+- [VS Code 자주 쓰는 단축키 모음](etc/vscode_usage.md)
