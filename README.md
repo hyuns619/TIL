@@ -30,11 +30,12 @@
 - [CSS 기본 문법 정리](css/210408_css-basics.md)
 - [CSS 박스 모델(Box Model)](css/210409_css-box-model.md)
 - [CSS 플렉스 박스(Flex Box)](css/2104030_css-flex.md)
-- [CSS 가상 선택자](css/root-selector.md)
 - [CSS 애니메이션(Animation)](css/210429_css-animations.md)
 - [CSS 블록, 인라인, 인라인 블록 요소의 차이](css/210404_block-inline-inline-block.md)
 - [CSS 속성 순서 컨벤션](css/210504-css-property-order.md)
 - [CSS 초기화 전략 (Reset.css vs Normalize.css)](css/210405_reset-css.md)
+- [미디어 쿼리를 이용한 반응형 작업](css/210514-css-media-query-basics.md)
+- [:root 가상 클래스로 CSS 전역 변수 설정하기](css/root-selector.md)
 
 ## Git
 
