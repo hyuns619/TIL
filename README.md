@@ -6,10 +6,10 @@
 
 - 학습한 내용을 주제별로 정리해서 기록한다.
 - 목차는 알파벳 순으로 정렬한다.
-- <a href="https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown">Github-Flavored-Markdown</a>으로 작성하며 파일의 확장자는 `md`이다.
 - 잘 쓰려고 하지 않고 온전히 이해하는 것에 초점을 맞춘다.
+- 간단하며 명확하고 이해하기 쉽게 작성한다.
 - `2021/03/25` 기준 파일명은 제목에 날짜를 함께 기재한다.
-- 가공된 기록은 <a href="https://hyuns.netlify.app">블로그</a>에 포스팅하는 것을 원칙으로 한다.
+- 공유를 원하는 내용은<a href="https://hyuns.netlify.app">블로그</a>에 포스팅하는 것을 원칙으로 한다.
 
 ## Connecting the dot.
 
@@ -22,7 +22,8 @@
 
 ## Book
 
-- [코어 자바스크립트](book/corejs/README.md)
+- [모든 자바스크립트 Deep Dive / 이웅모](book/modernjs-deepdive/README.md)
+- [코어 자바스크립트 / 정재남](book/corejs/README.md)
 - [프로그래머의 길, 멘토에게 묻다.](book/apprenticeship-patterns.md)
 
 ## Css
@@ -59,7 +60,7 @@
 - [이벤트 (Event)](javascript/event.md)
 - [네이티브 객체와 호스트 객체](javascript/210331_native-host.md)
 
-## Network
+## HTTP
 
 - [HTTP 기초 내용 정리](network/210410_http-basics.md)
 
@@ -69,7 +70,7 @@
 
 ## React
 
-## Wep
+## Web
 
 - [bitmap과 vector 포맷](web/210404_bitmap-vector.md)
 
