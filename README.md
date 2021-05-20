@@ -46,6 +46,7 @@
 
 - [기본을 중요하게 생각하자, 시맨틱 마크업](html/semantic.md)
 - [DOCTYPE](html/210404_doctype.md)
+- [script 태그와 async, defer 비교](html/../Html/210520_script-async-defer.md)
 - [Emmet 기본 사용법](html/210406_emmet.md)
 
 ## JavaScript
