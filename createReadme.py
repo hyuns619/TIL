@@ -25,7 +25,7 @@ FOOTER = '''## Connect the dots
 
 ## License
 
-&copy; 2021 Jim Anderson
+&copy; 2021 Sunghyun Jeon
 
 This repository is licensed under the MIT license. See `LICENSE` for
 details.'''

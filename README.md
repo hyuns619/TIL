@@ -5,7 +5,7 @@
 기록을 위한 기록이 되지 않기를 바라며 온전히 이해하는 것에 초점을 두고 알기 쉽게 작성합니다. 공부하면서 얻은 지식을 확고히 다지기 위해 문서화를 합니다. 
 
 
-_36 TILs and counting..._
+_35 TILs and counting..._
 
 ---
 
@@ -19,11 +19,9 @@ _36 TILs and counting..._
 * [Git](#git)
 * [Html](#html)
 * [Http](#http)
-* [Images](#images)
 * [Javascript](#javascript)
 * [Node](#node)
 * [React](#react)
-* [Til](#til)
 * [Vscode](#vscode)
 * [Web](#web)
 
@@ -71,9 +69,6 @@ _36 TILs and counting..._
 
 - [HTTP](http/210410_http-basics.md)
 
-### Images
-
-
 ### Javascript
 
 - [None](javascript/arrow-function.md)
@@ -98,10 +93,6 @@ _36 TILs and counting..._
 ### React
 
 
-### Til
-
-- [Today I Learned](til/TIL (Today I Learned).md)
-
 ### Vscode
 
 - [유용한 VS Code 단축키](vscode/vscode_usage.md)
@@ -116,7 +107,7 @@ _36 TILs and counting..._
 
 ## License
 
-&copy; 2021 Jim Anderson
+&copy; 2021 Sunghyun Jeon
 
 This repository is licensed under the MIT license. See `LICENSE` for
 details.
