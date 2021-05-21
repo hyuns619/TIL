@@ -1,10 +1,8 @@
 # TIL
 
-> Today I Learned
+> 오늘 새롭게 학습한 내용과 일련의 경험을 기록합니다.
 
-A collection of concise write-ups on small things I learn day to day across a
-variety of languages and technologies. These are things that don't really
-warrant a full blog post.
+기록을 위한 기록이 되지 않기를 바라며 온전히 이해하는 것에 초점을 두고 알기 쉽게 작성합니다. 공부하면서 얻은 지식을 확고히 다지기 위해 문서화를 합니다. 
 
 
 _36 TILs and counting..._
@@ -13,7 +11,6 @@ _36 TILs and counting..._
 
 ### Categories
 
-* [Issue](#Issue)
 * [Algorithm](#algorithm)
 * [Book](#book)
 * [Conference](#conference)
@@ -28,12 +25,10 @@ _36 TILs and counting..._
 * [Node](#node)
 * [React](#react)
 * [Til](#til)
+* [Vscode](#vscode)
 * [Web](#web)
 
 ---
-
-### Issue
-
 
 ### Algorithm
 
@@ -60,7 +55,6 @@ _36 TILs and counting..._
 
 ### Etc
 
-- [VS Code 단축키](etc/vscode_usage.md)
 - [개발 용어 사전](etc/dictionary.md)
 
 ### Git
@@ -111,6 +105,10 @@ _36 TILs and counting..._
 ### Til
 
 - [Today I Learned](til/TIL (Today I Learned).md)
+
+### Vscode
+
+- [유용한 VS Code 단축키](vscode/vscode_usage.md)
 
 ### Web
 

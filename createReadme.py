@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*- 
 ''' Simple script to auto-generate the README.md file for a til project.
     NOTE: Someone who wanted to be fancy would actually use a template engine
     for this, but this seemed like a task for which it is best to only require
@@ -12,30 +13,15 @@ import os
 
 HEADER = '''# TIL
 
-> Today I Learned
+> 오늘 새롭게 학습한 내용과 일련의 경험을 기록합니다.
 
-A collection of concise write-ups on small things I learn day to day across a
-variety of languages and technologies. These are things that don't really
-warrant a full blog post.
+기록을 위한 기록이 되지 않기를 바라며 온전히 이해하는 것에 초점을 두고 알기 쉽게 작성합니다. 공부하면서 얻은 지식을 확고히 다지기 위해 문서화를 합니다. 
 
 '''
 
 FOOTER = '''## Connect the dots
 
 내가 남기는 기록은 점이 되고, 그 점이 모여 선과 면으로 확장될 수 있다고 생각합니다. 좋은 개발자가 되기 위한 지향점을 제시해주신 [JoonSikYang](https://github.com/joonsikyang) 님, [saengmotmi](https://github.com/saengmotmi) 님, [gollumnima](https://github.com/gollumnima) 님의 영감을 받아 꾸준함의 근육을 단련시키고자 합니다.
-
-## Usage
-
-TIL 폴더에 `createReadme.py` 파일을 생성합니다. 해당 폴더 안에 `hooks` 폴더를 새로 만들고 `cd .git/hooks/ && ln -s ../../createReadme.py pre-commit && cd-` 해당 명령어를 입력합니다. 마지막으로 파일을 변동하고 commit, push하면 자동으로 새로운 README.MD가 생성됩니다.
-
-## About
-
-## Other TIL Collections
-
-* [jbranchaud/til](https://github.com/jbranchaud/til) who claims to have stolen
-* [Today I Learned by Hashrocket](https://til.hashrocket.com)
-* [jwworth/til](https://github.com/jwworth/til)
-* [thoughtbot/til](https://github.com/thoughtbot/til)
 
 ## License
 

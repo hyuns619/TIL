@@ -1,4 +1,4 @@
-# VS Code 단축키
+# 유용한 VS Code 단축키
 
 자주 사용하는 VS Code 단축키 정리
 
