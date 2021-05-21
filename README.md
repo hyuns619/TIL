@@ -17,7 +17,6 @@ _36 TILs and counting..._
 * [Css](#css)
 * [Etc](#etc)
 * [Git](#git)
-* [Hooks](#hooks)
 * [Html](#html)
 * [Http](#http)
 * [Images](#images)
@@ -60,9 +59,6 @@ _36 TILs and counting..._
 ### Git
 
 - [나만의 커밋 메시지 가이드](git/my-commit-guide.md)
-
-### Hooks
-
 
 ### Html
 
