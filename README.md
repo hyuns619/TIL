@@ -5,7 +5,7 @@
 기록을 위한 기록이 되지 않기를 바라며 온전히 이해하는 것에 초점을 두고 알기 쉽게 작성합니다. 공부하면서 얻은 지식을 확고히 다지기 위해 문서화를 합니다. 
 
 
-_35 TILs and counting..._
+_29 TILs and counting..._
 
 ---
 
@@ -39,16 +39,15 @@ _35 TILs and counting..._
 
 ### Css
 
-- [# 블록 (block)](css/210404_block-inline-inline-block.md)
 - [:root 가상 클래스로 CSS 전역 변수 설정하기](css/root-selector.md)
-- [CSS Reset](css/210405_reset-css.md)
+- [CSS block, inline, inline-block 요소의 차이](css/210404_block-inline-inline-block.md)
 - [CSS 기본 선택자 정리](css/210408_css-basics.md)
 - [CSS 미디어 쿼리를 이용한 반응형 작업](css/210514-css-media-query-basics.md)
-- [CSS 박스 모델](css/210409_css-box-model.md)
-- [CSS 속성 순서](css/210504-css-property-order.md)
-- [CSS 애니메이션](css/210429_css-animations.md)
-- [CSS3 Flexbox](css/2104030_css-flex.md)
-- [test](css/test.md)
+- [CSS 박스 모델(Box Model)](css/210409_css-box-model.md)
+- [CSS 속성 순서 컨벤션](css/210504-css-property-order.md)
+- [CSS 애니메이션(Animation)](css/210429_css-animations.md)
+- [CSS 초기화 전략(Reset.css vs Normalize.css)](css/210405_reset-css.md)
+- [CSS 플렉스 박스(Flex Box)](css/2104030_css-flex.md)
 
 ### Etc
 
@@ -56,34 +55,29 @@ _35 TILs and counting..._
 
 ### Git
 
-- [나만의 커밋 메시지 가이드](git/my-commit-guide.md)
+- [나만의 commit 메시지 가이드](git/my-commit-guide.md)
 
 ### Html
 
 - [DOCTYPE](html/210404_doctype.md)
-- [Emmet](html/210406_emmet.md)
-- [script 태그와 script async, script defer](html/210520_script-async-defer.md)
-- [시맨틱 마크업](html/semantic.md)
+- [Emmet 플러그인 사용법](html/210406_emmet.md)
+- [script 태그와 script async, script defer의 차이](html/210520_script-async-defer.md)
+- [근원이 되는 시맨틱 마크업](html/semantic.md)
 
 ### Http
 
-- [HTTP](http/210410_http-basics.md)
+- [HTTP 기본 내용 정리](http/210410_http-basics.md)
 
 ### Javascript
 
 - [None](javascript/arrow-function.md)
-- [None](javascript/브라우저 환경.md)
 - [Ajax](javascript/ajax.md)
-- [DOM(Document Object Model)](javascript/문서 객체 모델(Document Object Model).md)
 - [JSON](javascript/json.md)
-- [Promise](javascript/promise.md)
 - [var, let, const 차이점](javascript/210325_var-let-const.md)
-- [객체(Object)](javascript/객체(Object)를 생성하는 방법.md)
 - [네이티브 객체 vs 호스트 객체](javascript/210331_native-host.md)
 - [스코프(Scope)](javascript/scope.md)
 - [실행 컨텍스트(Execution Context)](javascript/execution-context.md)
 - [자바스크립트 이벤트(Event)](javascript/event.md)
-- [함수](javascript/함수의 기본.md)
 - [호이스팅(Hoisting)](javascript/210325_hosting.md)
 
 ### Node

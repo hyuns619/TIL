@@ -1,4 +1,4 @@
-## 블록 (block)
+# CSS block, inline, inline-block 요소의 차이
 
 - 사용 가능한 최대 너비를 사용한다.
 - 크기를 지정할 수 있다.

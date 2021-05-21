@@ -1,4 +1,4 @@
-# CSS 박스 모델
+# CSS 박스 모델(Box Model)
 
 <center>
 

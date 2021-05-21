@@ -1,4 +1,4 @@
-# script 태그와 script async, script defer
+# script 태그와 script async, script defer의 차이
 
 - `<script>` : HTML 파싱이 중단되고 즉시 스크립트가 로드되며 로드가 끝난 스크립트가 실행된 후 파싱이 재개된다. `<body>`태그 최하단에 위치시킨다.
 

@@ -1,4 +1,4 @@
-# CSS 애니메이션
+# CSS 애니메이션(Animation)
 
 ## animation 속성
 

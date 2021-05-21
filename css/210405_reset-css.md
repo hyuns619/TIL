@@ -1,4 +1,4 @@
-# CSS Reset
+# CSS 초기화 전략(Reset.css vs Normalize.css)
 
 크롬, 파이어폭스, IE 등 브라우저마다 HTML 요소의 기본 스타일을 가지고 있다. 이와 같은 부분은 CSS로 스타일링을 할 때 동일한 스타일 적용을 방해하기 때문에 이를 방지하기 위해서 사전에 스타일 초기화를 진행한다. 스타일 초기화 전략은 크게 `CSS Reset`과 `CSS Normalize`가 있다.
 
